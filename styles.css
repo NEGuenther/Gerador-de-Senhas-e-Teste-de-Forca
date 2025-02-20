@@ -1,0 +1,99 @@
+/* Reset básico para evitar diferenças entre navegadores */
+* {
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+}
+
+body {
+    font-family: 'Arial', sans-serif;
+    background-color: #f4f4f9;
+    color: #333;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    height: 100vh;
+    flex-direction: column;
+}
+
+.titulo{
+    margin-bottom: 200px;
+    font-size: 3em;
+}
+
+.big-conteiner {
+    display: flex; /* Define o container como um flexbox */
+    justify-content: space-between; /* Espaço entre os elementos (opcional) */
+    gap: 20px;
+}
+h1 {
+    font-size: 2em;
+    margin-bottom: 20px;
+}
+
+.container {
+    background-color: #fff;
+    padding: 30px;
+    border-radius: 8px;
+    box-shadow: 0 4px 10px rgba(0, 0, 0, 0.1);
+    width: 100%;
+    max-width: 400px;
+}
+
+.input-container {
+    margin-bottom: 15px;
+}
+
+label {
+    display: block;
+    font-size: 1.1em;
+    margin-bottom: 8px;
+    text-align: left;  /* Ajuste para garantir que o label não seja centralizado */
+}
+
+input[type="text"] {
+    width: 100%;
+    padding: 12px;
+    font-size: 1.2em;
+    border: 1px solid #ccc;
+    border-radius: 6px;
+}
+
+button {
+    width: 100%;
+    padding: 12px;
+    background-color: #4CAF50;
+    color: white;
+    border: none;
+    font-size: 1.2em;
+    border-radius: 6px;
+    cursor: pointer;
+    transition: background-color 0.3s ease;
+    margin-top: 15px;
+}
+
+button:hover {
+    background-color: #45a049;
+}
+
+p {
+    margin-top: 15px;
+    font-size: 1.1em;
+}
+
+#senha-gerada {
+    font-size: 1.4em;
+    font-weight: bold;
+    color: #333;
+}
+
+#forca-senha {
+    font-size: 1.1em;
+    color: #888;
+}
+
+.footer {
+    margin-top: 20px;
+    font-size: 0.9em;
+    color: #888;
+}

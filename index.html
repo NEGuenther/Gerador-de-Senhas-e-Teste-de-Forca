@@ -1,0 +1,42 @@
+<!DOCTYPE html>
+<html lang="pt-br">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Gerador de Senhas e Teste de Força</title>
+    <link rel="stylesheet" href="styles.css">
+</head>
+<body>
+
+    <h1 class="titulo">Gerador de Senhas e Teste de Força</h1>
+
+    <div class="big-conteiner">
+
+        <div class="container">
+            <h1>Gerar sua senha</h1>
+            <button onclick="retornaSenhaGerada()">Gerar Senha</button>
+            <p>Senha gerada:</p>
+            <p id="senha-gerada"></p>
+        </div>
+
+
+        <div class="container">
+            <h1>Teste de força</h1>
+            <div class="input-container">
+                <label for="senha">Digite sua senha</label>
+                <input type="text" id="senha">
+            </div>
+            
+            <button onclick="retornaForcaSenha()">Testar Força</button>
+
+            <p id="forca-senha"></p>
+        </div>
+
+    </div>   
+
+    <div class="footer">
+        <p>Projeto de segurança de senhas</p>
+    </div>
+    <script src="scripts.js"></script>
+</body>
+</html>
