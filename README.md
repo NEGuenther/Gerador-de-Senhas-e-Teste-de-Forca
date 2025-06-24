@@ -14,4 +14,4 @@ Este é um projeto simples para **gerar senhas aleatórias** e **testar a força
 Para começar, clone este repositório para o seu computador:
 
 ```bash
-git clone https://github.com/SEU_USUARIO/gerador-de-senhas.git
+git clone https://github.com/NEGuenther/Gerador-de-senhas-e-teste-de-Forca.git
